@@ -1,0 +1,23 @@
+{
+  "skill_name": "6a-workflow",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "@6A 开发一个用户管理系统,需要支持用户注册、登录、权限管理等功能",
+      "expected_output": "开始执行6A工作流的Align阶段,创建ALIGNMENT文档,分析需求并提出澄清问题(如用户角色、权限级别、技术栈选择等)",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "@6A 为现有的电商平台添加商品评价功能",
+      "expected_output": "启动Align阶段,分析现有项目结构,理解技术栈和架构模式,创建ALIGNMENT文档并询问关键决策点(如评价与现有用户/订单系统的集成方式、数据存储方案等)",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "@6A 重构遗留代码中的用户认证模块,从session改为JWT",
+      "expected_output": "分析现有系统架构和理解当前认证实现,创建ALIGNMENT和CONSENSUS文档,明确边界范围(是仅改认证模块还是涉及前后端),在DESIGN阶段规划迁移策略和向后兼容方案",
+      "files": []
+    }
+  ]
+}
